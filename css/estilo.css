@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #container {
@@ -34,4 +35,31 @@
 }
 
 /* NÃO ALTERE DAQUI PRA CIMA */
-/* ESCREVA SEU CÓDIGO ABAIXO */
+
+
+#layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tabuleiro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.casa {
+  width: 50px;
+  height: 50px;
+}
+
+.claro {
+  background-color: #ccc;
+}
+
+.escuro {
+  background-color: #666;
+}
+
